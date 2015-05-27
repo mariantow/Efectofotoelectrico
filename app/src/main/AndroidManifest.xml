@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="formulas.co.efectofotoelectrico" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".HistoriaActivity"
+            android:label="@string/title_activity_historia" >
+        </activity>
+        <activity
+            android:name=".BiografiaActivity"
+            android:label="@string/title_activity_biografia" >
+        </activity>
+        <activity
+            android:name=".FormulasActivity"
+            android:label="@string/title_activity_formulas" >
+        </activity>
+        <activity
+            android:name=".FormulaunoActivity"
+            android:label="@string/title_activity_formulauno" >
+        </activity>
+        <activity
+            android:name=".FormuladosActivity"
+            android:label="@string/title_activity_formulados" >
+        </activity>
+        <activity
+            android:name=".FormulatresActivity"
+            android:label="@string/title_activity_formulatres" >
+        </activity>
+        <activity
+            android:name=".drawable.FormulacuatroActivity"
+            android:label="@string/title_activity_formulacuatro" >
+        </activity>
+        <activity
+            android:name=".FormulacincoActivity"
+            android:label="@string/title_activity_formulacinco" >
+        </activity>
+        <activity
+            android:name=".drawable.FormulaseisActivity"
+            android:label="@string/title_activity_formulaseis" >
+        </activity>
+        <activity
+            android:name=".FormulasieteActivity"
+            android:label="@string/title_activity_formulasiete" >
+        </activity>
+        <activity
+            android:name=".FormulaochoActivity"
+            android:label="@string/title_activity_formulaocho" >
+        </activity>
+        <activity
+            android:name=".FormulanueveActivity"
+            android:label="@string/title_activity_formulanueve" >
+        </activity>
+        <activity
+            android:name=".FormuladiezActivity"
+            android:label="@string/title_activity_formuladiez" >
+        </activity>
+        <activity
+            android:name=".AplicacionesActivity"
+            android:label="@string/title_activity_aplicaciones" >
+        </activity>
+        <activity
+            android:name=".drawable.FuncionesTrabajoActivity"
+            android:label="@string/title_activity_funciones_trabajo" >
+        </activity>
+    </application>
+
+</manifest>

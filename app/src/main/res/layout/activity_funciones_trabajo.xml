@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FUNCION TRABAJO"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffffff"
+        android:background="#ff000000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4" >
+
+        <GridLayout
+            android:layout_width="361dp"
+            android:layout_height="match_parent"
+            android:rowCount="22"
+            android:columnCount="2"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:textColor="#ff6334ff"
+                android:textSize="20dp"
+                android:text="ELEMENTO  "
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+
+                android:textColor="#ffd725f6"
+                android:textSize="20dp"
+                android:text="FUNCIÓN DE TRABAJO (eV)"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Aluminio" />
+
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,08" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Berilio" />
+
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="5,0" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Cadmio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,07" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Calcio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="2,9" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Carbono" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,81" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Cesio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="2,1" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Cobalto" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="5,0" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Cobre" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,7" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Oro" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="5,1" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Hierro" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,5" />
+            <TextView
+                android:textColor="#ff000000"
+                android:layout_gravity="center_horizontal"
+                android:textSize="20dp"
+                android:text="Plomo" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,14" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Magnesio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="3,68" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Mercurio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,5" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Niquel" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="5,01" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Niobio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,3" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Potasio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="2,3" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Platino" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="6,35" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Selenio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="5,11" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Plata" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,73" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Sodio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="2,28" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Uranio" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="3,6" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Zinc" />
+            <TextView
+                android:textColor="#ff000000"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="4,3" />
+
+
+        </GridLayout>
+    </ScrollView>
+
+</LinearLayout>

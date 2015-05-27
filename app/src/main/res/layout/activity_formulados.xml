@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linealazul"
+    android:baselineAligned="false">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView6"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/dos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduzca las variables y deje vacio el cuadro de la variable que quiere consultar"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#ff00ac4d"
+        android:gravity="center_horizontal"
+        android:textStyle="bold|italic" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kmax="
+            android:id="@+id/textView12"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="68dp"
+            android:layout_marginStart="68dp" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_Kmax"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView12"
+            android:layout_alignBottom="@+id/textView12"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v="
+            android:id="@+id/textView13"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView12"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignStart="@+id/textView12"
+            android:gravity="center_horizontal"
+            android:layout_toLeftOf="@+id/editText_Kmax"
+            android:layout_toStartOf="@+id/editText_Kmax" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_v"
+            android:layout_alignBottom="@+id/textView13"
+            android:layout_toRightOf="@+id/textView12"
+            android:layout_toEndOf="@+id/textView12"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Φ="
+            android:id="@+id/textView14"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/textView13"
+            android:layout_toLeftOf="@+id/editText_v"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignStart="@+id/textView13" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_tra"
+            android:layout_below="@+id/textView13"
+            android:layout_toRightOf="@+id/textView13"
+            android:layout_toEndOf="@+id/textView13"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Kmax: energia cinetica maxima\n h: constante de planck \n v: frecuencia de radiacion \n Φ: funcion de trabajo"
+            android:id="@+id/textView15"
+            android:textColor="#ffffffff"
+            android:textSize="25dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/textView14"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CALCULAR"
+            android:id="@+id/btnCalcular"
+            android:layout_below="@+id/textView15"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp"
+            android:textColor="#fffffbfd"
+            android:background="#90505050"
+            android:onClick="energiaCinetica_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnCalcular"
+            android:textColor="#ffff3116"
+            android:textSize="30dp"
+            android:layout_below="@+id/btnCalcular"
+            android:layout_alignLeft="@+id/btnCalcular"
+            android:layout_alignStart="@+id/btnCalcular"
+            android:layout_alignRight="@+id/btnCalcular"
+            android:layout_alignEnd="@+id/btnCalcular" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:id="@+id/textView16"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_alignBottom="@+id/editText_Kmax"
+            android:layout_toRightOf="@+id/editText_Kmax"
+            android:layout_toEndOf="@+id/editText_Kmax" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hz"
+            android:id="@+id/textView17"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_above="@+id/editText_tra"
+            android:layout_toRightOf="@+id/editText_Kmax"
+            android:layout_toEndOf="@+id/editText_Kmax"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eV"
+            android:id="@+id/textView18"
+            android:textColor="#ffffffff"
+            android:textSize="30dp"
+            android:layout_alignBottom="@+id/editText_tra"
+            android:layout_toRightOf="@+id/editText_tra"
+            android:layout_toEndOf="@+id/editText_tra" />
+
+    </RelativeLayout>
+</LinearLayout>

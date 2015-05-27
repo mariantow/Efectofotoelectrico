@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/imageView11"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/siete" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduzca las variables y deje vacio el cuadro de la variable que quiere consultar"
+            android:id="@+id/textView43"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#ff00ac4d"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:layout_below="@+id/imageView11"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V ="
+            android:id="@+id/textView45"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView43"
+            android:layout_toLeftOf="@+id/editText_V"
+            android:layout_toStartOf="@+id/editText_V" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v ="
+            android:id="@+id/textView46"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView45"
+            android:layout_alignLeft="@+id/textView45"
+            android:layout_alignStart="@+id/textView45" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="φ ="
+            android:id="@+id/textView47"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView46"
+            android:layout_alignLeft="@+id/textView46"
+            android:layout_alignStart="@+id/textView46" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_V"
+            android:textColor="#ff000000"
+            android:layout_above="@+id/editText_v"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_v"
+            android:textColor="#ff000000"
+            android:layout_above="@+id/textView47"
+            android:layout_toRightOf="@+id/textView45"
+            android:layout_toEndOf="@+id/textView45" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_tra"
+            android:textColor="#ff000000"
+            android:layout_alignBottom="@+id/textView47"
+            android:layout_toRightOf="@+id/textView45"
+            android:layout_toEndOf="@+id/textView45" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:id="@+id/textView49"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_above="@+id/editText_v"
+            android:layout_toRightOf="@+id/editText_V"
+            android:layout_toEndOf="@+id/editText_V" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hz"
+            android:id="@+id/textView50"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_above="@+id/textView47"
+            android:layout_toRightOf="@+id/editText_V"
+            android:layout_toEndOf="@+id/editText_V" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:id="@+id/textView51"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_alignBottom="@+id/editText_tra"
+            android:layout_alignLeft="@+id/textView50"
+            android:layout_alignStart="@+id/textView50" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="e: carga del electron \n V: diferencia de potencial \n h: constante de planck \n v: frecuencia de radiacion \n Φ: funcion de trabajo "
+            android:id="@+id/textView52"
+            android:textColor="#ff000000"
+            android:textSize="25dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/textView47"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CALCULAR"
+            android:id="@+id/BtnCalcular"
+            android:textSize="30dp"
+            android:textColor="#fffffbfd"
+            android:background="#90505050"
+            android:onClick="igualdad"
+            android:layout_below="@+id/textView52"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_resultado"
+            android:textColor="#ffff3116"
+            android:textSize="30dp"
+            android:layout_below="@+id/BtnCalcular"
+            android:layout_alignLeft="@+id/BtnCalcular"
+            android:layout_alignStart="@+id/BtnCalcular"
+            android:layout_alignRight="@+id/BtnCalcular"
+            android:layout_alignEnd="@+id/BtnCalcular" />
+    </RelativeLayout>
+</LinearLayout>

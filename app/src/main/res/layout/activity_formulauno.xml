@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="185dp"
+        android:layout_height="122dp"
+        android:id="@+id/imageView5"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/uno" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduzca las variables y deje vacio el cuadro de la variable que quiere consultar"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#ff00ac4d"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kmax ="
+            android:id="@+id/textView9"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_marginLeft="83dp"
+            android:layout_marginStart="83dp"
+            android:singleLine="true"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V ="
+            android:id="@+id/textView10"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView9"
+            android:layout_alignLeft="@+id/textView9"
+            android:layout_alignStart="@+id/textView9" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:textColor="#ff000000"
+            android:layout_above="@+id/textView10"
+            android:layout_toRightOf="@+id/textView9"
+            android:layout_toEndOf="@+id/textView9" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:textColor="#ff000000"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:id="@+id/textView11"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_above="@+id/editText4"
+            android:layout_toRightOf="@+id/editText"
+            android:layout_toEndOf="@+id/editText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:id="@+id/textView71"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_alignBottom="@+id/editText4"
+            android:layout_toRightOf="@+id/editText"
+            android:layout_toEndOf="@+id/editText" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Kmax: energia cinetica maxima \n e: carga del electron \n V: diferencia de potencial o potencial de frenado"
+            android:id="@+id/textView72"
+            android:textColor="#ff000000"
+            android:textSize="25dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CALCULAR"
+            android:id="@+id/button15"
+            android:textSize="30dp"
+            android:textColor="#fffffbfd"
+            android:background="#90505050"
+            android:onClick="formulaenergia5"
+            android:layout_below="@+id/textView72"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView73"
+            android:textColor="#ffff3116"
+            android:textSize="30dp"
+            android:layout_below="@+id/button15"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIOGRAFIA"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffffff"
+        android:background="#ff000000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:background="@drawable/einstein" />
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="197dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.66">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Albert Einstein (en alemán [ˈalbɐt ˈaɪnʃtaɪn]; Ulm, Imperio alemán, 14 de marzo de 1879-Princeton, Estados Unidos, 18 de abril de 1955) fue un físico alemán de origen judío, nacionalizado después suizo y estadounidense. Es considerado como el científico más conocido y popular del siglo XX. \n En 1905, cuando era un joven físico desconocido, empleado en la Oficina de Patentes de Berna, publicó su teoría de la relatividad especial. En ella incorporó, en un marco teórico simple fundamentado en postulados físicos sencillos, conceptos y fenómenos estudiados antes por Henri Poincaré y por Hendrik Lorentz. Como una consecuencia lógica de esta teoría, dedujo la ecuación de la física más conocida a nivel popular: la equivalencia masa-energía, E=mc². Ese año publicó otros trabajos que sentarían bases para la física estadística y la mecánica cuántica. \n Por sus explicaciones sobre el efecto fotoeléctrico y sus numerosas contribuciones a la física teórica, en 1921 obtuvo el Premio Nobel de Física y no por la Teoría de la Relatividad, pues el científico a quien se encomendó la tarea de evaluarla no la entendió, y temieron correr el riesgo de que luego se demostrase errónea. En esa época era aún considerada un tanto controvertida. "
+            android:id="@+id/textView3"
+            android:textColor="#ff000000"
+            android:gravity="top|center_horizontal"
+            android:textSize="20dp" />
+
+
+    </ScrollView>
+
+    <TextView
+        android:onClick="clickText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para ver mas sobre Albert Einstein clickee aqui "
+        android:id="@+id/textView4"
+        android:textSize="20dp"
+        android:textColor="#ffff2f1a"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

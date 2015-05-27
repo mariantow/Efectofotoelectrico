@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="269dp"
+        android:layout_height="83dp"
+        android:id="@+id/imageView9"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cinco" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduzca las variables y deje vacio el cuadro de la variable que quiere consultar"
+            android:id="@+id/textView31"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#ff00ac4d"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E ="
+            android:id="@+id/textView32"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView31"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="94dp"
+            android:layout_marginStart="94dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v ="
+            android:id="@+id/textView33"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_below="@+id/textView32"
+            android:layout_alignLeft="@+id/textView32"
+            android:layout_alignStart="@+id/textView32" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_ene"
+            android:textColor="#ff000000"
+            android:layout_above="@+id/textView33"
+            android:layout_toRightOf="@+id/textView32"
+            android:layout_toEndOf="@+id/textView32" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_frec"
+            android:textColor="#ff000000"
+            android:layout_alignBottom="@+id/textView33"
+            android:layout_toRightOf="@+id/textView32"
+            android:layout_toEndOf="@+id/textView32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:id="@+id/textView34"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_above="@+id/editText_frec"
+            android:layout_toRightOf="@+id/editText_ene"
+            android:layout_toEndOf="@+id/editText_ene" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hz"
+            android:id="@+id/textView35"
+            android:textColor="#ff000000"
+            android:textSize="30dp"
+            android:layout_alignBottom="@+id/editText_frec"
+            android:layout_toRightOf="@+id/editText_ene"
+            android:layout_toEndOf="@+id/editText_ene" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="E: energia de la radiacion incidente \n h: constante de planck \n v: frecuencia de radiacion"
+            android:id="@+id/textView36"
+            android:textColor="#ff000000"
+            android:textSize="25dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_below="@+id/editText_frec"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CALCULAR"
+            android:id="@+id/BtnCalcular"
+            android:textSize="30dp"
+            android:textColor="#fffffbfd"
+            android:background="#90505050"
+            android:onClick="formulaenergia5"
+            android:layout_below="@+id/textView36"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_Resultado"
+            android:textColor="#ffff3116"
+            android:textSize="30dp"
+            android:layout_below="@+id/BtnCalcular"
+            android:layout_alignLeft="@+id/textView33"
+            android:layout_alignStart="@+id/textView33"
+            android:layout_alignRight="@+id/BtnCalcular"
+            android:layout_alignEnd="@+id/BtnCalcular" />
+
+    </RelativeLayout>
+</LinearLayout>

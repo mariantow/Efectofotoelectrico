@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Gallery
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gallery"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="177dp"
+        android:layout_height="246dp"
+        android:id="@+id/imageView14"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/aplicacion" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El efecto fotoeléctrico es la base de la producción de energía eléctrica por radiación solar y del aprovechamiento energético de la energía solar. El efecto fotoeléctrico se utiliza también para la fabricación de células utilizadas en los detectores de llama de las calderas de las grandes centrales termoeléctricas. Este efecto es también el principio de funcionamiento de los sensores utilizados en las cámaras digitales. También se utiliza en diodos fotosensibles tales como los que se utilizan en las células fotovoltaicas y en electroscopios o electrómetros. En la actualidad los materiales fotosensibles más utilizados son, aparte de los derivados del cobre (ahora en menor uso), el silicio, que produce corrientes eléctricas mayores. \n El efecto fotoeléctrico también se manifiesta en cuerpos expuestos a la luz solar de forma prolongada. Por ejemplo, las partículas de polvo de la superficie lunar adquieren carga positiva debido al impacto de fotones. Las partículas cargadas se repelen mutuamente elevándose de la superficie y formando una tenue atmósfera. Los satélites espaciales también adquieren carga eléctrica positiva en sus superficies iluminadas y negativa en las regiones oscurecidas, por lo que es necesario tener en cuenta estos efectos de acumulación de carga en su diseño."
+            android:id="@+id/textView74"
+            android:textSize="20dp"
+            android:textColor="#ff000000"
+            android:gravity="center_horizontal" />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APLICACIONES"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffffff"
+        android:background="#ff000000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
+

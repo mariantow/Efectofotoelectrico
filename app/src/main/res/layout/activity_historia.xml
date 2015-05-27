@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUÉ ES EL EFECTO FOTOELECTRICO?"
+        android:id="@+id/textView5"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffffff"
+        android:background="#ff000000"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/fotoele" />
+
+    <ScrollView
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comunmente se considera que el efecto fotoeléctrico es la emisión de electrones de una superficie metálica cuando ésta es iluminada por luz. Un arreglo experimental para estudiar el efecto consiste de dos placas metálicas paralelas dentro de una botella a la que se le ha practicado vacío, ver diagrama en la Fig. 3. Estas placas son conectadas a un amperímetro y a una bateria con un potenciometro que permite no sólo variar el potencial entre las placas sino además su signo. El experimento se lleva a cabo iluminando la superficie del cátodo (emisor), y como resultado se mide una pequeña corriente eléctrica en el amperímetro. Si hay una lectura de corriente, entonces hubo transferencia de electrones de una placa a la otra. Posteriormente se varía el potencial entre las placas, lo cual modifica la intensidad de la corriente medida por el amperímetro. Cuando este potencial se hace negativo, oponiendose al movimiento de los electrones, se encuentra que existe un potencial de umbral, Vo, para el cual la corriente cesa. Este potencial multiplicado por la carga del electrón es la energía cinética máxima de los electrones foto-emitidos."
+            android:id="@+id/textView6"
+            android:textColor="#ff000000"
+            android:textSize="20dp" />
+    </ScrollView>
+</LinearLayout>
