@@ -2,6 +2,7 @@
     <string name="app_name">Efectofotoelectrico</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="facebook_app_id">825022667580591</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_menu">Menu</string>
     <string name="title_activity_historia">HistoriaActivity</string>
